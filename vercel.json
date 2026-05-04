@@ -1,0 +1,4 @@
+{
+  "installCommand": "npm install",
+  "buildCommand": "chmod +x node_modules/.bin/vite && npm run build"
+}
