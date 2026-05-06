@@ -409,7 +409,7 @@ export function EmployeeListings() {
         onClose={handleCloseForm}
         title={editingEmployee ? "Edit Employee" : "New Employee Registration"}
         onSubmit={handleSubmit(onSubmit)}
-        maxWidth="max-w-5xl h-[98%]"
+        maxWidth="max-w-5xl h-[98%] overflow-y-auto"
       >
         <div className="space-y-8 text-gray-800 relative">
           {/* Loading overlay for edit mode */}
